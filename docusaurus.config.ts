@@ -127,6 +127,7 @@ const config: Config = {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
+    themes: ['@docusaurus/theme-classic'],
   } satisfies Preset.ThemeConfig,
 };
 
